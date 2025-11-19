@@ -1,4 +1,5 @@
 import HeritageMultiple.Person;
+import heritageHybride.Individuel;
 import hierarchicalInheritance.Child1;
 import hierarchicalInheritance.Child2;
 import inheritanceMultiNiveau.Child;
@@ -54,10 +55,19 @@ public class Main {
         child2.property();
         child2.child2property();
 */
+/*
         // heritage multiple grace aux interfaces
         Person person = new Person();
         person.coding();
         person.dancing();
+
+ */
+        //heritage hybride d'une class et d'interface
+
+        Individuel individuel = new Individuel();
+        individuel.humain();
+        individuel.drive();
+        individuel.slip();
 
     }
 
