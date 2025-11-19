@@ -1,6 +1,8 @@
-import exo2.ReportCard;
-import exo2.TableauDeNote;
-import exo3.FormulePalindrome;
+import HeritageMultiple.Person;
+import hierarchicalInheritance.Child1;
+import hierarchicalInheritance.Child2;
+import inheritanceMultiNiveau.Child;
+import inheritanceSinple.B;
 
 public class Main {
     public static void main(String[] args){
@@ -15,7 +17,7 @@ public class Main {
         eleve2.printBulletin();
         eleve3.printBulletin();
   */
-
+/*
         FormulePalindrome pal1 = new FormulePalindrome("123");
         FormulePalindrome pal2 = new FormulePalindrome("121");
         FormulePalindrome pal3 = new FormulePalindrome("abba");
@@ -29,9 +31,37 @@ public class Main {
         pal5.formulePalindrome();
 
         System.out.println(pal1.isPalindrome(123));
+*/
+/*
+        // heritage Simple
+        B b = new B();// la class B herite speed de la class A
+        b.bike();
 
+        //heritage Multi niveau
+        Child child = new Child();
+        child.play();
+        child.work(); // heritage simple de Father
+        child.love(); // heritage multi niveau de GrandFather
+*/
+ /*
+        // heritage hiérarchique Child1 n'hérite pas de Child2 mais les 2 hérite de Parent
+        Child1 child1 = new Child1();
+        Child2 child2 = new Child2();
 
+        child1.property();
+        child1.child1property();
+
+        child2.property();
+        child2.child2property();
+*/
+        // heritage multiple grace aux interfaces
+        Person person = new Person();
+        person.coding();
+        person.dancing();
 
     }
 
 }
+
+
+
