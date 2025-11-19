@@ -1,9 +1,7 @@
-import HeritageMultiple.Person;
-import heritageHybride.Individuel;
-import hierarchicalInheritance.Child1;
-import hierarchicalInheritance.Child2;
-import inheritanceMultiNiveau.Child;
-import inheritanceSinple.B;
+import Exo1Heritage.Carre;
+import Exo1Heritage.Triangle;
+import Exo2Heritage.Break;
+import Exo2Heritage.Chopped;
 
 public class Main {
     public static void main(String[] args){
@@ -67,12 +65,34 @@ public class Main {
         person.dancing();
 
  */
+  /*
         //heritage hybride d'une class et d'interface
 
         Individuel individuel = new Individuel();
         individuel.humain();
         individuel.drive();
         individuel.slip();
+
+   */
+
+        //Exo 1 heritage
+        Carre c1 = new Carre();
+        c1.carre();
+        Triangle t1 = new Triangle();
+        t1.triangle();
+
+
+        //Exo 2 heritage
+        Chopped chopped1 = new Chopped(1550,250,2.3,5);
+        chopped1.weightHp();
+        chopped1.clutter();
+
+        Break break1 = new Break(3000 ,200,2.5,5.5);
+        break1.weightHp();
+        break1.clutter();
+
+
+
     }
 }
 
