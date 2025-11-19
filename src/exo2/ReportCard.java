@@ -24,6 +24,8 @@ public class ReportCard {
             System.out.print(bulletinTab[z][i] + "   ");
             System.out.println();
         }
+
+
 /*      //seconde methode de sortir
         System.out.println(Arrays.toString(bulletinTab[0]));
         System.out.println(Arrays.toString(bulletinTab[1]));
