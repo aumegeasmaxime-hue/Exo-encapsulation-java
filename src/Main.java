@@ -15,6 +15,7 @@ public class Main {
         eleve2.printBulletin();
         eleve3.printBulletin();
   */
+
         FormulePalindrome pal1 = new FormulePalindrome("123");
         FormulePalindrome pal2 = new FormulePalindrome("121");
         FormulePalindrome pal3 = new FormulePalindrome("abba");
@@ -27,7 +28,7 @@ public class Main {
         pal4.formulePalindrome();
         pal5.formulePalindrome();
 
-
+        System.out.println(pal1.isPalindrome(123));
 
 
 
