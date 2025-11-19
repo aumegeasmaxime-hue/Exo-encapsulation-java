@@ -7,9 +7,13 @@ import inheritanceSinple.B;
 
 public class Main {
     public static void main(String[] args){
-        //Tableau tab = new Tableau();
-        //tab.creatTab();
-/*      //  Exo2
+/*
+        Tableau.Tableau tab = new Tableau.Tableau();
+        tab.creatTab();
+
+ */
+/*
+    //  Exo 2
         TableauDeNote noteE1 = new TableauDeNote();
         ReportCard eleve1 = new ReportCard("Bob","Lamotte",3,noteE1.elev1);
         ReportCard eleve2 = new ReportCard("Francis","Lamotte",3,noteE1.elev2);
@@ -19,6 +23,7 @@ public class Main {
         eleve3.printBulletin();
   */
 /*
+    // Exo 3
         FormulePalindrome pal1 = new FormulePalindrome("123");
         FormulePalindrome pal2 = new FormulePalindrome("121");
         FormulePalindrome pal3 = new FormulePalindrome("abba");
