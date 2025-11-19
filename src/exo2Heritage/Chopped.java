@@ -1,4 +1,4 @@
-package Exo2Heritage;
+package exo2Heritage;
 
 public class Chopped extends CarMethode {
     public Chopped(double weight, double hp , double width , double length){

@@ -1,4 +1,4 @@
-package Exo1Heritage;
+package exo1Heritage;
 
 public class Carre extends Height {
 

@@ -1,7 +1,8 @@
-import Exo1Heritage.Carre;
-import Exo1Heritage.Triangle;
-import Exo2Heritage.Break;
-import Exo2Heritage.Chopped;
+import exo1Heritage.Carre;
+import exo1Heritage.Triangle;
+import exo2Heritage.Break;
+import exo2Heritage.Chopped;
+import exo3Heritage.User;
 
 public class Main {
     public static void main(String[] args){
@@ -90,6 +91,15 @@ public class Main {
         Break break1 = new Break(3000 ,200,2.5,5.5);
         break1.weightHp();
         break1.clutter();
+
+        //Exo 3 heritage
+        User user1 = new User("Mirette","Latrine",100.20,50.10,120.30);
+        user1.credit();
+        user1.debits();
+
+        User user2 = new User("Bob","lamotte",100.10,0.50,70.00);
+        user2.credit();
+        user2.debits();
 
 
 

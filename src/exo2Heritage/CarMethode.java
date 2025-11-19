@@ -1,4 +1,4 @@
-package Exo2Heritage;
+package exo2Heritage;
 
 public class CarMethode extends GeneralCar{
         public void weightHp(){
