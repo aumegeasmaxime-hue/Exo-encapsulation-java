@@ -68,9 +68,7 @@ public class Main {
         individuel.humain();
         individuel.drive();
         individuel.slip();
-
     }
-
 }
 
 
