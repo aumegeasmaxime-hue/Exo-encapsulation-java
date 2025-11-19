@@ -7,7 +7,7 @@ public class Method extends Bank implements Credit,Debits{
         double newSold = 0;
         newSold = initialSold + credit;
         initialSold = newSold;
-        System.out.println(newSold);
+        System.out.println("le solde initial est de: " + initialSold + " le nouveau solde est de: " + newSold);
     }
 
     @Override
@@ -15,7 +15,7 @@ public class Method extends Bank implements Credit,Debits{
         double newSold = 0;
         newSold = initialSold - debit;
         initialSold = newSold;
-        System.out.println(newSold);
+        System.out.println("le solde initial est de: " + initialSold + " le nouveau solde est de: " + newSold);
     }
 
 
