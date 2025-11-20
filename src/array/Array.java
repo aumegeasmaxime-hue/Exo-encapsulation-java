@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
+
 public class Array {
 
     public static void main () {
@@ -47,5 +48,7 @@ public class Array {
             System.out.println((Integer)obj+1);
         }
         int randomValue = list.get(new Random().nextInt(list.size()));
+
+
     }
 }
