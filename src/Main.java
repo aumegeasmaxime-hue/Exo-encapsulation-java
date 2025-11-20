@@ -75,7 +75,7 @@ public class Main {
         individuel.slip();
 
    */
-
+/*
         //Exo 1 heritage
         Carre c1 = new Carre();
         c1.carre();
@@ -100,6 +100,15 @@ public class Main {
         User user2 = new User("Bob","lamotte",100.10,0.50,70.00);
         user2.credit();
         user2.debits();
+
+ */
+
+
+
+
+
+
+
 
 
 
